@@ -1,0 +1,9 @@
+function [P]=set_rot(a,b,c,T)
+
+a=a*pi/180;
+b=b*pi/180;
+c=c*pi/180;
+P=[cos(c)*cos(b)+sin(c)*sin(a)*sin(b) sin(c)*cos(a) -cos(c)*sin(b)+sin(c)*sin(a)*cos(b) T(1);...
+-sin(c)*cos(b)+cos(c)*sin(a)*sin(b) cos(c)*cos(a)  sin(c)*sin(b)+cos(c)*sin(a)*cos(b) T(2);...
+              cos(a)*sin(b)        -sin(a) cos(a)*cos(b) T(3);...
+	      0 0 0 1];

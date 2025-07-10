@@ -1,0 +1,7 @@
+The directory contains 3 image data sets (with 6 images each) that where
+taken with image sources placed at the directions provided in the file
+Source.m
+
+a) Write a Matlab code to recover the normal vectors for these data sets
+b) Implement the "simple z-integration method" discussed in the lecture
+to recover the 3D geometry
